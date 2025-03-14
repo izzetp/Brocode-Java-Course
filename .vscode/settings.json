@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "6.-shopping-cart-program",
         "5.-arithmetic",
         "4.-mad-libs-game",
         "3.-user-input",
         "2.-variables",
         "1.-Introduction-to-java",
-        "6.-shopping-cart-program"
+        "7.-if-statements"
     ]
 }
