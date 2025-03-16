@@ -1,6 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "9.-math",
+        "9.-math-class",
         "8.-random-numbers",
         "7.-if-statements",
         "6.-shopping-cart-program",
@@ -9,6 +9,5 @@
         "3.-user-input",
         "2.-variables",
         "1.-Introduction-to-java",
-        "9.-math-class"
     ]
 }
