@@ -11,6 +11,7 @@
 * 15/03/25 Day 8: 1:22:28-1:27:28
 * 16/03/25 Day 9: 1:27:28-1:42:37
 * 17/03/24 Day 10: 1:42:37-1:56:14
+* 18/03/24 Day 12: 1:56:14-2:03:47
 ##
 * https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=1890s
 * https://www.youtube.com/watch?app=desktop&v=ZIX1m-bYJyU
