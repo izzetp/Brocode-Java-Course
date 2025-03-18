@@ -23,8 +23,9 @@ public class Compound_Interest {
         System.out.print("Enter the # of years: ");
         years = scanner.nextInt();
 
-        amount = principal + Math.pow(1 + rate / timesCompounded + years);
+        amount = principal * Math.pow(1 + rate / timesCompounded, timesCompounded * years);
 
+        System.out.print("The amount after " + years + "is $" + amount);
 
 
 
