@@ -27,9 +27,6 @@ public class Compound_Interest {
 
         System.out.print("The amount after " + years + "is $" + amount);
 
-
-
-
         scanner.close();
     }
 }
