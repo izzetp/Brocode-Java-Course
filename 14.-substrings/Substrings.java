@@ -10,6 +10,7 @@ public class Substrings {
         String domain;
 
         System.out.print("Enter your email: ");
+        
         email = scanner.nextLine();
 
         if (email.contains("@")) {            username = email.substring(0, email.indexOf('@'));
