@@ -8,6 +8,7 @@
         "4.-mad-libs-game",
         "3.-user-input",
         "2.-variables",
+        "17.-temperature-converter",
         "16.-ternary-operator",
         "15.-weight-converter",
         "14.-substrings",
@@ -16,6 +17,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "17.-temperature-converter"
+        "18.-advaced-switches"
     ]
 }
