@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Calculator_Program {
     public static void main(String[] args) {
         
@@ -6,8 +8,9 @@ public class Calculator_Program {
         double num1;
         double num2;
         char operator;
-        double result;
+        double result = 0;
         boolean validOperator;
+
 
         System.out.print("Enter the first number: ");
         num1 = scanner.nextDouble();
