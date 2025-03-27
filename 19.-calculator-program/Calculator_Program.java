@@ -9,7 +9,7 @@ public class Calculator_Program {
         double num2;
         char operator;
         double result = 0;
-        boolean validOperator;
+        boolean validOperator = true;
 
 
         System.out.print("Enter the first number: ");
