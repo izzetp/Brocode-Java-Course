@@ -7,6 +7,7 @@
         "5.-arithmetic",
         "4.-mad-libs-game",
         "3.-user-input",
+        "22.-guessing-game",
         "21.-while-loops",
         "20.-logical-operators",
         "2.-variables",
@@ -21,6 +22,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "22.-guessing-game"
+        "23.-for-loop"
     ]
 }
