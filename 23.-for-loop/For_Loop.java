@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class For_Loop {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         
         Scanner scanner = new Scanner(System.in);
 
@@ -17,6 +17,7 @@ public class For_Loop {
 
         for (int i = start; i > 0; i--) {
             System.out.println(i);
+            Thread.sleep(1000);
         }
         
         System.out.println("HAPPY NEW YEAR!");
