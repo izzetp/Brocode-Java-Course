@@ -5,6 +5,11 @@ public class Break_Continue {
             if (i == 5) {
                 continue;
             }
+            if (i == 7) {
+                break;
+            }
+
+            System.out.println(i);
         }
     }
 }
