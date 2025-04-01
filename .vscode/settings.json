@@ -7,6 +7,7 @@
         "5.-arithmetic",
         "4.-mad-libs-game",
         "3.-user-input",
+        "25.-nested-for-loop",
         "24.-break-continue",
         "23.-for-loop",
         "22.-guessing-game",
@@ -24,6 +25,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "25.-nested-for-loop"
+        "26.-methods"
     ]
 }
