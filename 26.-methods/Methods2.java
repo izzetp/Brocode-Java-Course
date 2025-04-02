@@ -7,4 +7,5 @@ public class Methods2 {
 
     static double square(double number) {
         return number * number;
+    }
 }
