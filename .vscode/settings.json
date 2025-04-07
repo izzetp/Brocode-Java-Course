@@ -7,6 +7,7 @@
         "5.-arithmetic",
         "4.-mad-libs-game",
         "3.-user-input",
+        "29.-banking-program",
         "28.-variable-scope",
         "28.-overloaded-methods",
         "26.-methods",
@@ -28,6 +29,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "29.-banking-program"
+        "30.-dice-roller-program"
     ]
 }
