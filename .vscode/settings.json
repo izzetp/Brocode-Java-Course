@@ -6,6 +6,7 @@
         "6.-shopping-cart-program",
         "5.-arithmetic",
         "4.-mad-libs-game",
+        "31.-arrays",
         "30.-dice-roller-program",
         "3.-user-input",
         "29.-banking-program",
@@ -30,6 +31,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "31.-arrays"
+        "32.-arrays-input"
     ]
 }
