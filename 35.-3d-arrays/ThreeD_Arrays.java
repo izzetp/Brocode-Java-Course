@@ -9,6 +9,8 @@ public class ThreeD_Arrays {
                                 {"potato", "onion", "carrot"},
                                 {"chicken", "pork", "beef", "fish"}};
 
+        groceries[0][1] = "pineapple";
+
         for (String[] foods : groceries) {
             for (String food : foods) {
                 System.out.print(food + " ");
