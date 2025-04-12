@@ -6,6 +6,7 @@
         "6.-shopping-cart-program",
         "5.-arithmetic",
         "4.-mad-libs-game",
+        "34.-varargs",
         "33.-search-array",
         "32.-arrays-input",
         "31.-arrays",
@@ -33,6 +34,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "34.-varargs"
+        "35.-3d-arrays"
     ]
 }
