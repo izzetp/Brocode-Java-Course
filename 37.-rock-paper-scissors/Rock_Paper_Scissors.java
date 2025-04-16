@@ -15,7 +15,9 @@ public class Rock_Paper_Scissors {
         String computerChoice;
         String playAgain = "yes";
 
-        System.out.println("Enter your move (rock, paper, scissors): )");
+        //choice
+
+        System.out.print("Enter your move (rock, paper, scissors): ");
         playerChoice = scanner.nextLine().toLowerCase();
 
         if (!playerChoice.equals("rock") &&
@@ -24,7 +26,19 @@ public class Rock_Paper_Scissors {
             System.out.println("Invalid choice");
         }
 
-        // choice
+        computerChoice = choices[random.nextInt(3)];
+        System.out.println("Computer choice: " + computerChoice);
+
+        if () {
+            System.out.println("It's a tie");
+        } else if () {
+            System.out.println("You win!");
+        } else {
+            System.out.println("You lose!");
+
+        }
+
+
 
         // rand choice
 
