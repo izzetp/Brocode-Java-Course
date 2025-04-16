@@ -6,6 +6,7 @@
         "6.-shopping-cart-program",
         "5.-arithmetic",
         "4.-mad-libs-game",
+        "36.-quiz-game",
         "35.-3d-arrays",
         "34.-varargs",
         "33.-search-array",
@@ -35,6 +36,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "36.-quiz-game"
+        "37.-rock-paper-scissors"
     ]
 }
