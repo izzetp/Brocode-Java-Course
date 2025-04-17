@@ -24,14 +24,17 @@ public class Rock_Paper_Scissors {
                 !playerChoice.equals("paper") && 
                 !playerChoice. equals("scissors")) {
             System.out.println("Invalid choice");
+            continue;
         }
 
         computerChoice = choices[random.nextInt(3)];
         System.out.println("Computer choice: " + computerChoice);
 
-        if () {
+        if (playerChoice.equals(computerChoice)) {
             System.out.println("It's a tie");
-        } else if () {
+        } else if ((playerChoice.equals("rock") && playerChoice.equals("scissors")) 
+                || (playerChoice.equals("scissors") && playerChoice.equals("paper")) 
+                || (playerChoice.equals("paper") && playerChoice.equals("rock"))) {
             System.out.println("You win!");
         } else {
             System.out.println("You lose!");
@@ -45,6 +48,8 @@ public class Rock_Paper_Scissors {
         // win condition
 
         // play again
+        System.out.print("Play again? (yes/no): ");
+        playAgain = scanner.nextLine().toLowerCase();
 
         // goodbye
     }
