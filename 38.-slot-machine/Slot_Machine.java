@@ -57,6 +57,9 @@ public class Slot_Machine {
             }
         }
 
+        System.out.print("Do you want to play again (Y/N): ");
+        playAgain = scanner.nextLine().toUpperCase();
+
         scanner.close();
     }
 
