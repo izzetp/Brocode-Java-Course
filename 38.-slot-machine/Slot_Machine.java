@@ -22,7 +22,8 @@ public class Slot_Machine {
         int balance = 100;
         int bet;
         int payout;
-        String[] row = SpinRow();
+        String[] row;
+        String playAgain;
 
         System.out.println("***************************");
         System.out.println("   Welcome to Java Slots   ");
@@ -33,6 +34,7 @@ public class Slot_Machine {
             System.out.println("Current balanmce: $" + balance);
             System.out.print("Plance your bet amount: ");
             bet = scanner.nextInt();
+            scanner.nextLine();
 
             if (bet > balance) {
                 System.out.println("INSUFFICIENT FUNDS");
@@ -55,13 +57,21 @@ public class Slot_Machine {
             } else {
                 System.out.println("Sorry you lost this round");
             }
+        
+            System.out.print("Do you want to play again (Y/N): ");
+            playAgain = scanner.nextLine().toUpperCase();
+
+            if (!playAgain.equals("Y")) {
+                break;
+            } 
         }
 
-        System.out.print("Do you want to play again (Y/N): ");
-        playAgain = scanner.nextLine().toUpperCase();
+        System.out.println("GAME OVER! ");
 
         scanner.close();
     }
+
+    
 
     static String[] SpinRow() {
 
@@ -73,7 +83,7 @@ public class Slot_Machine {
             row[i] = symbols[random.nextInt(symbols.length)];
         }
 
-        return new String[0];
+        return row;
     }
 
     static void printRow(String[] row) {
