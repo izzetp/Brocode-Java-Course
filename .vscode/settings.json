@@ -5,6 +5,7 @@
         "7.-if-statements",
         "6.-shopping-cart-program",
         "5.-arithmetic",
+        "41.-overloaded-constructor",
         "40.-constructors",
         "4.-mad-libs-game",
         "39.-oop",
@@ -40,6 +41,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "41.-overloaded-constructor"
+        "42.-arrays-of-objects"
     ]
 }
