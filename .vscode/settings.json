@@ -5,6 +5,7 @@
         "7.-if-statements",
         "6.-shopping-cart-program",
         "5.-arithmetic",
+        "43.-staticc",
         "42.-arrays-of-objects",
         "41.-overloaded-constructor",
         "40.-constructors",
@@ -42,6 +43,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "43.-staticc"
+        "44.-inheritancee"
     ]
 }
