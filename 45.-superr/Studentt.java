@@ -7,4 +7,8 @@ public class Studentt extends Personn{
         this.gpa = gpa;
 
     }
+
+    void showGPA() {
+        System.out.println(this.first + "'s gpa is: " + this.gpa);
+    }
 }
