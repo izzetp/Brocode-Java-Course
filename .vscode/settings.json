@@ -5,6 +5,7 @@
         "7.-if-statements",
         "6.-shopping-cart-program",
         "5.-arithmetic",
+        "46.-method-overriding",
         "45.-superr",
         "44.-inheritancee",
         "43.-staticc",
@@ -45,6 +46,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "46.-method-overriding"
+        "47.-tostring-method"
     ]
 }
