@@ -8,5 +8,7 @@ public class Polymorphism {
         car.go();
         bike.go();
         boat.go();
+
+        Vehicle[] vehicles = {car, bike, boat};
     }
 }
