@@ -9,6 +9,6 @@ public class Aggregation {
 
         Library library = new Library("NYC Public Library", 1897, books);
 
-        library.displayInfo
+        library.displayInfo();
     }
 }

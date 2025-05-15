@@ -1,6 +1,6 @@
 public class Car52 {
     
-    private String model;
+    private final String model;
     private String color;
     private int price;
 
