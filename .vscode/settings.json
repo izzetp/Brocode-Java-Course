@@ -4,6 +4,7 @@
         "8.-random-numbers",
         "7.-if-statements",
         "6.-shopping-cart-program",
+        "52.-getters-setters",
         "51.-runtime-polymorphism",
         "50.-polymorphism",
         "5.-arithmetic",
@@ -51,6 +52,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "52.-getters-setters"
+        "53.-aggregation"
     ]
 }
