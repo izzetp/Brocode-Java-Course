@@ -70,6 +70,8 @@
 * 13/05/25 Day 65: 8:16:20-8:19:35
 * 14/05/25 Day 66: 8:19:35-8:29:39
 * 15/05/25 Day 67: 8:29:39-8:39:02
+* 16/05/25 Day 68: 8:39:02-8:45:17
+
 ##
 * https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=1890s
 * https://www.youtube.com/watch?app=desktop&v=ZIX1m-bYJyU
