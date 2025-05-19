@@ -1,6 +1,12 @@
 public class Exception {
     public static void main(String[] args) {
         
-        System.out.println(1 / 0);
+        try {
+            System.out.println("Enter a number: ");
+        } catch (ArithmeticException e) {
+            System.out.println("You can't divide by zero!");
+        }
+
+
     }
 }
