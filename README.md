@@ -75,6 +75,7 @@
 * 18/05/25 Day 70: 8:55:51-9:05:29
 * 19/05/25 Day 71: 9:05:29-9:13:28
 * 19/05/25 Day 72: 9:05:29-9:13:28
+* 20/05/25 Day 73: 9:13:28-9:16:00
 ##
 * https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=1890s
 * https://www.youtube.com/watch?app=desktop&v=ZIX1m-bYJyU
