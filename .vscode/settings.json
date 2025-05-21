@@ -4,6 +4,7 @@
         "8.-random-numbers",
         "7.-if-statements",
         "6.-shopping-cart-program",
+        "57.-exception-handling",
         "56.-arraylists",
         "55.-wrapper-classes",
         "54.-composition",
@@ -56,6 +57,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "57.-exception-handling"
+        "58.-write-files"
     ]
 }
