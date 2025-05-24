@@ -9,7 +9,11 @@ public class Read_File {
         String filePath = "";
 
         try(BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-            System.out.println("That file exists");
+            
+            String line;
+            while((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
         } catch(FileNotFoundException e) {
             System.out.println("Could not locate file");
         } catch(IOException e) {
