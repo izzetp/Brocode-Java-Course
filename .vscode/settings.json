@@ -4,6 +4,7 @@
         "8.-random-numbers",
         "7.-if-statements",
         "6.-shopping-cart-program",
+        "59.readfile",
         "58.-write-files",
         "57.-exception-handling",
         "56.-arraylists",
@@ -58,6 +59,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "59.readfile"
+        "60.-audio-player"
     ]
 }
