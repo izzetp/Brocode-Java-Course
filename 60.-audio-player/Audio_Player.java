@@ -11,7 +11,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
 public class Audio_Player {
     public static void main(String[] args) {
         
-        String filePath = "";
+        String filePath = "Beats.wav";
         File file = new File(filePath);
 
 
@@ -22,9 +22,7 @@ public class Audio_Player {
             Clip clip = AudioSystem.getClip();
             clip.open(audioStream);
 
-            clip.start();
-
-            String respone = "Beats.wav";
+            String response = "";
 
             while(!response.equals("Q")) {
                 System.out.println("P = Play");
@@ -53,7 +51,6 @@ public class Audio_Player {
             System.out.println("Somethig went wrong.");
         } finally {
             System.out.println("Bye!");
-            scanner.close();
         }
     }
 }
