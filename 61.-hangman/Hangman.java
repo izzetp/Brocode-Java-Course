@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Hangman {
@@ -9,11 +10,13 @@ public class Hangman {
         ArrayList<Character> wordState = new ArrayList<>();
         int wrongGuesses = 0;
 
-        for(int i = 0; i < wordstate.length(); i++) {
+        for(int i = 0; i < word.length(); i++) {
             wordState.add('_');
         }
 
-        System.out.println(wordState);
+        System.out.println("************************");
+        System.out.println("Welcome to Java Hangman!");
+        System.out.println("************************");
 
         scanner.close();
     }
