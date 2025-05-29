@@ -20,4 +20,35 @@ public class Hangman {
 
         scanner.close();
     }
+
+    static String getHangmanArt(int wrongGuesses) {
+
+        return switch(wrongGuesses) {
+            case 0 -> """
+            
+            
+                    
+                      """;
+            case 1 -> """
+                       o
+            
+                    
+                      """;
+            case 2 -> """
+                       o
+                       |
+                    
+                      """;
+            case 3 -> """
+                       o
+                      /|
+                    
+                      """;
+            case 4 -> """
+                       o
+                      /|\\
+                    
+                      """;
+        }
+    }
 }
