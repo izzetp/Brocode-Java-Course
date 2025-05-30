@@ -18,6 +18,8 @@ public class Hangman {
         System.out.println("Welcome to Java Hangman!");
         System.out.println("************************");
 
+        System.out.println();
+
         scanner.close();
     }
 
@@ -49,6 +51,17 @@ public class Hangman {
                       /|\\
                     
                       """;
-        }
+            case 5 -> """
+                       o
+                      /|\\
+                      /
+                      """;
+            case 6 -> """
+                       o
+                      /|\\
+                      / \\
+                      """;
+            default -> "";
+        };
     }
 }
