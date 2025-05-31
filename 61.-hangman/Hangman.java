@@ -18,7 +18,11 @@ public class Hangman {
         System.out.println("Welcome to Java Hangman!");
         System.out.println("************************");
 
-        System.out.println();
+        System.out.println("Word: ");
+
+        for(char c : wordState) {
+            System.out.print(c + " ");
+        }
 
         scanner.close();
     }
