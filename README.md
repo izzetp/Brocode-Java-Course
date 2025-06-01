@@ -86,6 +86,8 @@
 * 29/05/25 Day 81: 9:47:31-9:50:00
 * 30/05/25 Day 82: 9:50:00-9:52:00
 * 31/05/25 Day 83: 9:52:00-10:00:31
+* 01/06/25 Day 84: 10:00:31-10:03:20
+
 ##
 * https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=1890s
 * https://www.youtube.com/watch?app=desktop&v=ZIX1m-bYJyU
