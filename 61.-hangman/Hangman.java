@@ -37,9 +37,24 @@ public class Hangman {
                         wordState.set(i, guess);
                     }
                 }
+
+                if(!wordState.contains("_")) {
+                    System.out.println(getHangmanArt(wrongGuesses));
+                    System.out.println("You Win!");
+                    System.out.println("The word was: " + word);
+                    break;
+                }
+
             } else {
+                wrongGuesses++;
                 System.out.println("Wrong guess!\n");
             }
+        }
+
+        if(wrongGuesses >= 6) {
+            System.out.println(getHangmanArt(wrongGuesses));
+            System.out.println("Game Over!");
+            System.out.println("The word was " + word);
         }
 
         scanner.close();
