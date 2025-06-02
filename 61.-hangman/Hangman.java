@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Hangman {
     public static void main(String[] args) {
         
+        
         String word = "watermelon";
 
         Scanner scanner = new Scanner(System.in);
@@ -59,6 +60,7 @@ public class Hangman {
 
         scanner.close();
     }
+    
 
     static String getHangmanArt(int wrongGuesses) {
 
