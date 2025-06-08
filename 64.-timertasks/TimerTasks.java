@@ -13,14 +13,14 @@ public class TimerTasks {
             public void run() {
                 System.out.println("Hello!");
                 count--;
-                if (count < 0) {
+                if (count <= 0) {
                     System.out.println("Task Complete!");
                     timer.cancel();
                 }
             }
         };
 
-        timer.schedule(task, 3000, 1000);
+        timer.schedule(task, 0, 1000);
 
     }
 }
