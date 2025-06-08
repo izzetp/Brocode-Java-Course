@@ -1,4 +1,5 @@
-import 
+import java.util.Timer;
+import java.util.TimerTasks;
 
 public class TimerTasks {
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class TimerTasks {
             }
         };
 
-        timer.schedule(task, 3000);
-        
+        timer.schedule(task, 3000, 1000);
+
     }
 }
