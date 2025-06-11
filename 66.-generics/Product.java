@@ -12,7 +12,7 @@ public class Product<T, U> {
         return this.item;
     }
 
-    public U getprice() {
+    public U getPrice() {
         return this.price;
     }
 }
