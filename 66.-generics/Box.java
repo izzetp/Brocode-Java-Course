@@ -2,7 +2,7 @@ public class Box<T>  {
     
     T item;
 
-    public void serItem(T item) {
+    public void setItem(T item) {
         this.item = item;
     }
 
