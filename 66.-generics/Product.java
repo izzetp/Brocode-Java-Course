@@ -7,4 +7,12 @@ public class Product<T, U> {
         this.item = item;
         this.price = price;
     }
+
+    public T getItem() {
+        return this.item;
+    }
+
+    public U getprice() {
+        return this.price;
+    }
 }
