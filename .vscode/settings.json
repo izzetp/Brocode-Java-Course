@@ -3,6 +3,7 @@
         "9.-math-class",
         "8.-random-numbers",
         "7.-if-statements",
+        "66.-generics",
         "65.-coundown-timer",
         "64.-timertasks",
         "63.-anonymous-class",
@@ -65,6 +66,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "66.-generics"
+        "67.-hashmaps"
     ]
 }
