@@ -12,6 +12,6 @@ public class Hashmaps {
 
         // map.remove("apple");
 
-        System.out.println(map);
+        System.out.println(map.get("apple"));
     }
 }
