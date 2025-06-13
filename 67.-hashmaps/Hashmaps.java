@@ -13,5 +13,19 @@ public class Hashmaps {
         // map.remove("apple");
 
         System.out.println(map.get("apple"));
+        System.out.println(map.containsKey("apple"));
+
+        if (map.containsKey("apple")) {
+            System.out.println(map.get("apple"));
+        } else {
+            System.out.println("Key not found");
+        }
+
+        System.out.println(map.containsValue(1.00));
+        System.out.println(map.size());
+        
+        for (String key : map.keySet()) {
+            System.out.println(key + " : $" + map.get(key));
+        }
     }
 }
