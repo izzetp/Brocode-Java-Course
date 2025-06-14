@@ -7,4 +7,8 @@ public enum Day {
     Day(int dayNumber) {
         this.dayNumber = dayNumber;
     }
+
+    public int getDayNumber() {
+        return this.dayNumber;
+    }
 }
