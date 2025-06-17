@@ -5,23 +5,15 @@ public class Threading {
         
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("You have 5 seconds to enter your name");
+        MyRunnable myRunnable = new MyRunnable();
+        Thread thread = new Thread(myRunnable);
+        thread.setDaemon(true);
+        thread.start();
 
-        for (int i; i <= 5; i++) {
-
-            try {
-                thread.sleep(1000);
-            } catch (InterruptedException e) {
-                System.out.println("Thread was interrupted");
-            }
-
-            if (i == 5) {
-                System.out.println("Time's up!");
-            }
-        }
+        System.out.println("You have 10 seconds to enter your name");
 
         System.out.print("Enter your name: ");
-        String name = scanner.nexrtline();
+        String name = scanner.nextLine();
         System.out.println("Hello " + name);
 
         scanner.close();
