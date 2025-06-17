@@ -3,6 +3,7 @@
         "9.-math-class",
         "8.-random-numbers",
         "7.-if-statements",
+        "68.-enums",
         "67.-hashmaps",
         "66.-generics",
         "65.-coundown-timer",
@@ -67,6 +68,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "68.-enums"
+        "69.-threading"
     ]
 }
