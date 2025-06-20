@@ -1,18 +1,24 @@
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
 public class Alarm_Clock {
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner();
+        Scanner scanner = new Scanner(System.in);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         LocalTime alarmTime;
 
-        System.out.println("Enter an alarm time (HH:MM:SS): ");
-        String inputTime = scanner.nextLine();
+        try {
+            System.out.println("Enter an alarm time (HH:MM:SS): ");
+            String inputTime = scanner.nextLine();
 
-        alarmTime = localTime.parse(inputTime, formatter);
-        System.out.println("Alarm set for " + alarmTime);
+            alarmTime = LocalTime.parse(inputTime, formatter);
+            System.out.println("Alarm set for " + alarmTime);
+        } catch (DateTimeParseException e) {
+            System.out.println("Invalid format. Please use HH:MM:SS");
+        }
 
         scanner.close();
     }
