@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "9.-math-class",
         "8.-random-numbers",
+        "70.-multithreading",
         "7.-if-statements",
         "69.-threading",
         "68.-enums",
@@ -69,6 +70,6 @@
         "11.-compound-interest",
         "10.-printf-func",
         "1.-Introduction-to-java",
-        "70.-multithreading"
+        "71.-alarm-clock"
     ]
 }
