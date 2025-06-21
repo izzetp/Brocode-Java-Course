@@ -11,6 +11,5 @@ public class AlarmClock implements Runnable {
     @Override
     public void run() {
         LocalTime now = LocalTime.now();
-        System.out.println(now);
     }
 }
