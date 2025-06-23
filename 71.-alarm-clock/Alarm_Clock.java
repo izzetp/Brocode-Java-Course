@@ -9,6 +9,7 @@ public class Alarm_Clock {
         Scanner scanner = new Scanner(System.in);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         LocalTime alarmTime = null;
+        String filePath = "Beats.wav";
 
         while (alarmTime == null) {
             try {
@@ -22,7 +23,7 @@ public class Alarm_Clock {
             }
         }
 
-        AlarmClock alarmClock = new AlarmClock(alarmTime);
+        AlarmClock alarmClock = new AlarmClock(alarmTime, filePath);
         Thread alarmThread = new Thread(alarmClock);
         alarmThread.start();
 
