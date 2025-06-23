@@ -108,6 +108,8 @@
 * 20/06/25 Day 105: 11:31:02-11:36:23
 * 21/06/25 Day 106: 11:36:23-11:41:00
 * 22/06/25 Day 107: 11:41:00-11:47:00
+* 23/06/25 Day 108: 11:47:00-11:53:33
+
 ##
 * https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=1890s
 * https://www.youtube.com/watch?app=desktop&v=ZIX1m-bYJyU
